@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Metazona - Tienda</title>
+    <link rel="stylesheet" href="estilos.css?v=1.5">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Metazona - Tienda</title>
+        <link rel="stylesheet" href="estilos.css" />   
+    </head>
+
+
+
+</head>
+
+<div id="toast" class="toast">Producto añadido</div>
+
+<body>
+    <header class="header">
+        <h1>🛒 Metazona, tu supermecado de confianza </h1>
+    </header>
+
+    <!-- Barra del carrito bajo el header -->
+    <section id="barra-carrito" class="barra-carrito">
+        <button id="btn-ver-carrito" class="btn-carrito" type="button">
+            🛒 Ver carrito
+        </button>
+    </section>
+    
+    <!-- Modal de carrito -->
+    <div id="carrito-modal" class="carrito-modal">
+        <div class="carrito-panel" id="carrito">
+            <h2>Carrito</h2>
+            <ul id="items-carrito"></ul>
+            <p>Total: <span id="total">0.00</span> €</p>
+            <div class="carrito-acciones">
+                <button id="btn-comprar" type="button">Comprar</button>
+                <button id="btn-volver-tienda" type="button">Volver a la tienda</button>
+                <button id="btn-cancelar-pedido" type="button">Cancelar pedido</button>
+            </div>
+        </div>
+    </div>
+
+    <main class="contenedor" id="layout-tienda">
+        <!-- Menú de categorías a la izquierda -->
+        <aside class="menu-lateral izquierda" id="menu-categorias">
+            <nav class="menu">
+                <ul>
+                    <li><a href="#frutas">Frutas y Verduras</a></li>
+                    <li><a href="#carnes">Carnes</a></li>
+                    <li><a href="#pescados">Pescados</a></li>
+                    <li><a href="#lacteos">Lácteos</a></li>
+                    <li><a href="#cereales">Cereales</a></li>
+                    <li><a href="#bebidas">Bebidas</a></li>
+                    <li><a href="#congelados">Congelados</a></li>
+                    <li><a href="#snacks">Snacks</a></li>
+                    <li><a href="#limpieza">Limpieza</a></li>
+                    <li><a href="#higiene">Higiene</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Contenido de categorías (centro/derecha) -->
+        <section id="tienda" class="productos">
+            
+
+            <!-- Frutas y Verduras -->
+            <section id="frutas" class="categoria" style="display:none;">
+                <div class="categoria-grid"></div>
+            </section>
+
+            <!-- Carnes -->
+            <section id="carnes" class="categoria" style="display:none;">
+                <div class="categoria-grid"></div>
+            </section>
+
+            <!-- Pescados -->
+            <section id="pescados" class="categoria" style="display:none;">
+                <div class="categoria-grid"></div>
+            </section>
+
+            <!-- Lácteos -->
+            <section id="lacteos" class="categoria" style="display:none;">
+                <div class="categoria-grid"></div>
+            </section>
+
+            <!-- Cereales -->
+            <section id="cereales" class="categoria" style="display:none;">
+                <div class="categoria-grid"></div>
+            </section>
+
+            <!-- Bebidas -->
+            <section id="bebidas" class="categoria" style="display:none;">
+                <div class="categoria-grid"></div>
+            </section>
+
+            <!-- Congelados -->
+            <section id="congelados" class="categoria" style="display:none;">
+                <div class="categoria-grid"></div>
+            </section>
+
+            <!-- Snacks -->
+            <section id="snacks" class="categoria" style="display:none;">
+                <div class="categoria-grid"></div>
+            </section>
+
+            <!-- Limpieza -->
+            <section id="limpieza" class="categoria" style="display:none;">
+                <div class="categoria-grid"></div>
+            </section>
+
+            <!-- Higiene -->
+            <section id="higiene" class="categoria" style="display:none;">
+                <div class="categoria-grid"></div>
+            </section>
+        </section>
+    </main>
+
+    <script type="module" src="app.js"></script>
+    <script type="module" src="navegacion.js"></script>
+</body>
+
+</html>
