@@ -90,3 +90,10 @@ metazona/
 └── README.md
 ```
 
+### Notas del proyecto
+Actualemnte el proyecto cuenta con 2 menús para la tienda e imagenes para ambos menús.
+Sin embargo toda la lógica ya está creada para que tú puedas añadir los menús e imagenes que necesites
+Para añadir mas menus -> mira la estructura del HTML
+Para añadir mas imagenes -> mria la carpeta img
+Para añadir mas articulos -> mira la base de datos, solo sigue el orden de IDs de las categorías
+
